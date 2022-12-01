@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>AULA CRUD</title>
+    </head>
+    <body>
+    <form action="controller.php" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="Nome" name="nome"><br>
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="Telefone" name="telefone"><br>
+            <label for="email">Email:</label>
+            <input type="text" id="Email" name="email"><br>
+            <input type="submit" class="button" name="submit" value="Salvar"/><br><br>
+            <label for="nome">Digite o id que deseja alterar(os valores para a alteracao serao os dos campos acima):</label><br>
+            <input type="text" id="upId" name="upid"><br>
+            <input type="submit" class="button" name="submit" value="Alterar"/><br><br>
+        </div>
+        <div>
+            <label for="id">Digite o id que deseja deletar:</label><br>
+            <input type="text" id="delId" name="deid"><br>
+            <input type="submit" class="button" name="submit" value="Deletar"/><br><br>
+            <input type="submit" class="button" name="submit" value="Visualizar"/><br><br>
+        </div>
+    </form>
+    </body>
+</html>
